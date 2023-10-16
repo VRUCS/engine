@@ -2,7 +2,7 @@ module.exports = {
   title: 'دیتاگیت',
   tagline: 'همیشه راه ساده تری هم هست.',
   url: 'https://vrucs.github.io/',
-  baseUrl: '/engine',
+  baseUrl: '/engine/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
