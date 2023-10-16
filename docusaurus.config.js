@@ -1,8 +1,8 @@
 module.exports = {
   title: 'دیتاگیت',
   tagline: 'همیشه راه ساده تری هم هست.',
-  url: 'https://datagit.ir',
-  baseUrl: '/',
+  url: 'https://vrucs.github.io/',
+  baseUrl: '/engine',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
