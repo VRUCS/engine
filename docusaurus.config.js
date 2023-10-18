@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'دیتاگیت',
+  title: 'انجمن علوم کامپیوتر دانشگاه ولی‌عصر',
   tagline: 'همیشه راه ساده تری هم هست.',
   url: 'https://vrucs.github.io/',
   baseUrl: '/engine/',
@@ -48,9 +48,9 @@ module.exports = {
       // dark or primary or just remove it and it will be light
       // style: 'primary',
 
-      title: 'دیتاگیت',
+      title: 'انجمن علوم کامپیوتر دانشگاه ولی‌عصر',
       logo: {
-        alt: 'لوگو دیتاگیت',
+        alt: 'لوگو انجمن علوم کامپیوتر دانشگاه ولی‌عصر',
         src: 'img/logo.svg',
         // srcDark: 'img/logo_dark.svg', // Default to `logo.src`.
         // href: 'https://datagit.ir/', // Default to `siteConfig.baseUrl`.
@@ -163,7 +163,7 @@ module.exports = {
         src: 'img/logoGray.svg',
         // href: 'https://opensource.facebook.com',
       },
-      copyright: `دیتاگیت ۱۳۹۷ - امروز`,
+      copyright: `انجمن علوم کامپیوتر دانشگاه ولی‌عصر ۱۳۹۷ - امروز`,
     },
 
     // CodeBlock Theme,
@@ -196,7 +196,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
-          blogTitle: 'وبلاگ دیتاگیت!',
+          blogTitle: 'وبلاگ انجمن علوم کامپیوتر دانشگاه ولی‌عصر!',
           blogDescription: 'جایی برای خواندن همه چیز!',
           showReadingTime: true,
           blogSidebarTitle: 'مطالب اخیر'
