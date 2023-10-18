@@ -58,38 +58,15 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/python/introduction',
+          to: 'docs/flowchart/introduction',
           // activeBasePath: 'docs',
-          label: 'پایتون',
+          label: 'فلوچارت',
           position: 'left',
           items: [
-            {
-              label: 'معرفی',
-              to: 'docs/python/introduction',
-            },
-            {
-              label: 'آموزش مقدماتی',
-              to: 'docs/python/beginner/introduction',
-            },
             // {
             //   label: 'Matplotlib',
             //   to: 'docs/',
             // },
-          ],
-        },
-        {
-          to: 'docs/git/introduction',
-          label: 'گیت',
-          position: 'left',
-          items: [
-            {
-              label: 'معرفی',
-              to: 'docs/git/introduction',
-            },
-            {
-              label: 'آموزش مقدماتی',
-              to: 'docs/git/beginner/introduction',
-            },
           ],
         },
         // {
