@@ -1,23 +1,30 @@
 ---
 id: introduction
-# slug: /docs/python/introduction
-title: فلوچارت
-sidebar_label: معرفی فلوچارت
+# slug: /
+title: چرا یادگیری ماشین؟
+sidebar_label: یادگیری ماشین
 hide_title: false
 hide_table_of_contents: false
-description: آموزش فلوچارت
+description: آموزش یادگیری ماشین|دیتاگیت
 keywords:
-  - مبانی برنامه‌نویسی
-  - فلوچارت
-  - flowchart
-image: "img/python/python-logo.svg"
+  - آموزش مقدماتی Git
+  - آموزش Git
+  - نصب Git
+  - آموزش نصب Git
+  - نصب Git در ویندوز
+  - نصب Git در لینوکس
+  - نصب Git در مک
+  - آموزش مقدماتی Github
+  - آموزش Github
+  - نصب Github
+  - آموزش نصب Github
+  - نصب Github در ویندوز
+  - نصب Github در لینوکس
+  - نصب Github در مک
+image: "/img/git_github/git-logo.svg"
 ---
 
 import Image from '@theme/IdealImage';
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
-import img1 from '@site/static/img/general/startingpoint/stackoverflow-survey-2020.png';
 
-## **مقدمه**
-
-اولین قدم برای صحبت راجع به یه زبان برنامه نویسی و تصمیم برای یادگیری اون زبان از اونجا شروع میشه که آیا اصلا این زبان برنامه نویسی طرفدار داره توی دنیا؟
+## **چرا Git؟**
+توی پروژه های کوچیک که تعداد برنامه نویسیا کمه، معمولا هر برنامه نویسی روی یه قسمت از پروژه کار میکنه. وقتی هم بخوان یه تغییری بدن معمولا مشکلی ایجاد نمیشه چرا که یه نفر میره و تغییرات رو انجام میده. 
