@@ -7,8 +7,8 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
   favicon: 'img/favicon.ico',
-  organizationName: 'massoudmaboudi', // Usually your GitHub org/user name.
-  projectName: 'datagit', // Usually your repo name.
+  organizationName: 'vrucs', // Usually your GitHub org/user name.
+  projectName: 'vrucs.github.io', // Usually your repo name.
   themeConfig: {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
