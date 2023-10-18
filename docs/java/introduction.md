@@ -1,6 +1,6 @@
 ---
 id: introduction
-# slug: /docs/python/introduction
+slug: /docs/java/introduction
 title: جاوا
 sidebar_label: معرفی جاوا
 hide_title: false
