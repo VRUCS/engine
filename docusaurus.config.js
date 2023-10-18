@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'همیشه راه ساده تری هم هست.',
   url: 'https://vrucs.github.io/',
   baseUrl: '/engine/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   // onBrokenMarkdownLinks:'ignore',
   favicon: 'img/favicon.ico',
