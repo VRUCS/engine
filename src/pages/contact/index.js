@@ -7,38 +7,28 @@ import styles from './styles.module.css';
 import profilePic from '@site/static/img/general/massoudmaboudi.png';
 import telegram from '@site/static/img/socialMedia/telegram.png';
 import email from '@site/static/img/socialMedia/email.png';
-import whatsapp from '@site/static/img/socialMedia/whatsapp.png';
-import linkedin from '@site/static/img/socialMedia/linkedin.png';
+//import whatsapp from '@site/static/img/socialMedia/whatsapp.png';
+//import linkedin from '@site/static/img/socialMedia/linkedin.png';
 
 const profilePicture = [
   {
-    title: 'مسعود معبودی',
+    title: 'انجمن علوم کامپیوتر دانشگاه ولی عصر(عج)',
     description: 'یک انسان عادی که از کمک کردن به بقیه خوشحال میشه.',
     imageUrl: profilePic,
-    alt: 'Massoud Maboudi'
+    alt: 'Computer Science Association of Vali Asr University'
   }
 ]
 
 const socialMedia = [
   {
     imageUrl: telegram,
-    href: 'https://t.me/MassoudMaboudi',
+    href: 'https://t.me/vrucs',
     alt: 'telegram'
   },
   {
-    imageUrl: whatsapp,
-    href: 'http://wa.me/60183757685',
-    alt: 'whatsapp'
-  },
-  {
     imageUrl: email,
-    href: 'mailto:massoud.maboudi@gmail.com',
+    href: 'mailto:xoya61mz@duck.com',
     alt: 'email'
-  },
-  {
-    imageUrl: linkedin,
-    href: 'https://linkedin.com/in/massoud-maboudi',
-    alt: 'linkedin'
   }
 ]
 
@@ -70,15 +60,15 @@ function Support() {
   return (
     <Layout
       noFooter={true}
-      title="تماس با من"
-      description="توی این صفحه میتونید راه های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید. راستی، راجع به همکاری هم میتونیم صحبت کنیم."
-      keywords={['مسعود معبودی', 'Massoud Maboudi', 'دیتاگیت', 'datagit', 'datagit.ir', 'مسعود معبودی رزومه', 'رزومه مسعود معبودی', 'Massoud Maboudi profile', 'دیتا گیت', 'مسعود معبودی دیتا گیت']}
+      title="تماس با ما"
+      description="توی این صفحه می‌تونید راه‌های ارتباط با ما رو پیدا کنید. می‌تونید نظرتون رو بهمون بگید. راستی، راجع به همکاری هم می‌تونیم صحبت کنیم."
+      keywords={['انجمن علوم کامپیوتر', 'VRU CS', 'علوم کامپیوتر دانشگاه ولی‌عصر']}
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className={styles.hero__title}>دیتاگیت</h1>
-          <p className={styles.hero__subtitle}>توی این صفحه میتونید راه های ارتباط با من رو پیدا کنید. میتونید نظرتون رو بهم بگید یا اینکه یه آموزش جدید درخواست بدید.</p>
-          <p className={styles.hero__subtitle}>راستی، راجع به همکاری هم میتونیم صحبت کنیم.</p>
+          <p className={styles.hero__subtitle}>توی این صفحه می‌تونید راه‌های ارتباط با ما رو پیدا کنید. می‌تونید نظرتون رو بهمون بگید.</p>
+          <p className={styles.hero__subtitle}>راستی، راجع به همکاری هم می‌تونیم صحبت کنیم.</p>
         </div>
       </header>
       <main className={styles.main_features}>
@@ -105,7 +95,7 @@ function Support() {
       </main>
       <footer className={clsx('hero hero--primary', styles.heroFooter)}>
         <div className="container">
-          <p className={styles.customHero__subtitle}>Massoud Maboudi - Datagit.ir © 2018</p>
+          <p className={styles.customHero__subtitle}>VRUCS - 2023</p>
         </div>
       </footer>
     </Layout>

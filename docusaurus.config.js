@@ -58,11 +58,11 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/flowchart/introduction',
+          //to: 'docs/flowchart/introduction',
           // activeBasePath: 'docs',
-          label: 'فلوچارت',
-          position: 'left',
-          items: [
+          //label: 'فلوچارت',
+          //position: 'left',
+          //items: [
             // {
             //   label: 'Matplotlib',
             //   to: 'docs/',
@@ -91,7 +91,7 @@ module.exports = {
         // },
         {
           to: "contact",
-          label: "تماس با من",
+          label: "تماس با ما",
           position: "right",
         },
         { to: 'blog', label: 'بلاگ', position: 'right' },
