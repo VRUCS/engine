@@ -67,7 +67,7 @@ module.exports = {
             //   label: 'Matplotlib',
             //   to: 'docs/',
             // },
-          ],
+          //]
         },
         // {
         //   to: 'docs/r/introduction',
