@@ -27,6 +27,38 @@ function Home() {
             to={useBaseUrl('blog/')}>
             وبلاگ
             </Link>
+            <Link
+            className={clsx(
+              'button button--outline button--secondary button--lg',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('board/')}>
+            بورد
+            </Link>
+            <Link
+            className={clsx(
+              'button button--outline button--secondary button--lg',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('docs/')}>
+            مستندات
+            </Link>
+            <Link
+            className={clsx(
+              'button button--outline button--secondary button--lg',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('element-web/')}>
+            المنت - ماتریکس
+            </Link>
+            <Link
+            className={clsx(
+              'button button--outline button--secondary button--lg',
+              styles.getStarted,
+            )}
+            to={useBaseUrl('element-web/')}>
+            المنت - ماتریکس
+            </Link>
         </div>
       </header>
       <footer className={clsx('hero hero--primary', styles.heroFooter)}>
