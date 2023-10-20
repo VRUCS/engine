@@ -2,13 +2,10 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 function Home() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
   return (
     <Layout
       noFooter={true}
@@ -18,7 +15,6 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className={styles.hero__title}>انجمن علوم‌کامپیوتر دانشگاه ولی‌عصر</h1>
-          <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
           <Link
             className={clsx(
               'button button--outline button--secondary button--lg',
