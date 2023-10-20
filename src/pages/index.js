@@ -14,7 +14,7 @@ function Home() {
       keywords={['انجمن علوم کامپیوتر دانشگاه ولی‌عصر']}>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className={styles.hero__title}>انجمن علوم‌کامپیوتر دانشگاه ولی‌عصر</h1>
+          <h1 className={styles.hero__title}>انجمن علوم‌کامپیوتر دانشگاه ولی‌عصر(عج)</h1>
           <Link
             className={clsx(
               'button button--outline button--secondary button--lg',
