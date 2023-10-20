@@ -4,7 +4,7 @@ import Layout from "@theme/Layout";
 import Image from '@theme/IdealImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import profilePic from '@site/static/img/general/massoudmaboudi.png';
+import profilePic from '@site/static/img/general/logo.png';
 import telegram from '@site/static/img/socialMedia/telegram.png';
 import email from '@site/static/img/socialMedia/email.png';
 //import whatsapp from '@site/static/img/socialMedia/whatsapp.png';
@@ -13,7 +13,6 @@ import email from '@site/static/img/socialMedia/email.png';
 const profilePicture = [
   {
     title: 'انجمن علوم کامپیوتر دانشگاه ولی عصر(عج)',
-    description: 'یک انسان عادی که از کمک کردن به بقیه خوشحال میشه.',
     imageUrl: profilePic,
     alt: 'Computer Science Association of Vali Asr University'
   }
@@ -66,7 +65,6 @@ function Support() {
     >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className={styles.hero__title}>دیتاگیت</h1>
           <p className={styles.hero__subtitle}>توی این صفحه می‌تونید راه‌های ارتباط با ما رو پیدا کنید. می‌تونید نظرتون رو بهمون بگید.</p>
           <p className={styles.hero__subtitle}>راستی، راجع به همکاری هم می‌تونیم صحبت کنیم.</p>
         </div>
