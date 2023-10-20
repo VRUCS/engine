@@ -160,10 +160,10 @@ module.exports = {
       // ],
       logo: {
         alt: 'Facebook Open Source Logo',
-        src: 'img/logoGray.svg',
+        src: 'img/logo.png',
         // href: 'https://opensource.facebook.com',
       },
-      copyright: `انجمن علوم کامپیوتر دانشگاه ولی‌عصر ۱۳۹۷ - امروز`,
+      copyright: `VRUCS - 2023`,
     },
 
     // CodeBlock Theme,
