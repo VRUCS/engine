@@ -4,7 +4,7 @@ import Layout from "@theme/Layout";
 import Image from '@theme/IdealImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import profilePic from '@site/static/img/general/logo.png';
+import profilePic from '@site/static/img/logo.png';
 import telegram from '@site/static/img/socialMedia/telegram.png';
 import email from '@site/static/img/socialMedia/email.png';
 //import whatsapp from '@site/static/img/socialMedia/whatsapp.png';
