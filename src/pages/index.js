@@ -28,7 +28,7 @@ function Home() {
               'button button--outline button--secondary button--lg',
               styles.getStarted,
             )}
-            to={useBaseUrl('board/')}>
+            to={useBaseUrl('blog/tags/بورد/')}>
             بورد
             </Link>
             <Link
@@ -38,14 +38,6 @@ function Home() {
             )}
             to={useBaseUrl('docs/')}>
             مستندات
-            </Link>
-            <Link
-            className={clsx(
-              'button button--outline button--secondary button--lg',
-              styles.getStarted,
-            )}
-            to={useBaseUrl('element-web/')}>
-            المنت - ماتریکس
             </Link>
             <Link
             className={clsx(
