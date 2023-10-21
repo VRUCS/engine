@@ -13,17 +13,16 @@ module.exports = {
     // Relative to your site's "static" directory.
     // Cannot be SVGs. Can be external URLs too.
     image: 'img/metaImage.png',
-    hideableSidebar: true,
     // googleAnalytics: {
     //   trackingID: 'G-98VZHCYVG8',
     //   // Optional fields.
     //   // anonymizeIP: true, // Should IPs be anonymized?
     // },
-    gtag: {
-      trackingID: 'G-98VZHCYVG8',
+    //gtag: {
+      //trackingID: 'G-98VZHCYVG8',
       // Optional fields.
       // anonymizeIP: true, // Should IPs be anonymized?
-    },
+    //},
     // announcementBar: {
     //   id: 'support_us', // Any value that will identify this message.
     //   content:
@@ -57,18 +56,18 @@ module.exports = {
         // target: '_self', // By default, this value is calculated based on the `href` attribute (the external link will open in a new tab, all others in the current one).
       },
       items: [
-        {
+        //{
           //to: 'docs/flowchart/introduction',
-          // activeBasePath: 'docs',
+          //activeBasePath: 'docs',
           //label: 'فلوچارت',
           //position: 'left',
           //items: [
-            // {
-            //   label: 'Matplotlib',
-            //   to: 'docs/',
-            // },
+          // {
+          //    label: 'Matplotlib',
+          //    to: 'docs/',
+          //  },
           //]
-        },
+        //},
         // {
         //   to: 'docs/r/introduction',
         //   label: 'R',
@@ -95,11 +94,11 @@ module.exports = {
           position: "right",
         },
         { to: 'blog', label: 'بلاگ', position: 'right' },
-        {
+        //{
           // href: 'https://github.com/facebook/docusaurus',
           // label: 'GitHub',
           // position: 'right',
-        },
+        //},
       ],
     },
     footer: {
@@ -175,18 +174,18 @@ module.exports = {
       // darkTheme: require('prism-react-renderer/themes/vsDark'),
     },
 
-    algolia: {
-      apiKey: '70b38347b2c6ca47a5bfd5cc6cd173b0',
-      indexName: 'datagit',
+    //algolia: {
+      //apiKey: '70b38347b2c6ca47a5bfd5cc6cd173b0',
+      //indexName: 'datagit',
       // placeholder: 'جستجو',
       // Optional: see doc section bellow
-      contextualSearch: true,
+      //contextualSearch: true,
 
       // Optional: Algolia search parameters
       // searchParameters: {},
 
       //... other Algolia params
-    },
+    //},
   },
   presets: [
     [
