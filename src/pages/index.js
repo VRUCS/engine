@@ -28,8 +28,8 @@ function Home() {
               'button button--outline button--secondary button--lg',
               styles.getStarted,
             )}
-            to={useBaseUrl('blog/tags/بورد/')}>
-            بورد
+            to={'https://github.com/VRUCS/Board'}>
+            برد
             </Link>
             <Link
             className={clsx(
