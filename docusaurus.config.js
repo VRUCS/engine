@@ -175,6 +175,8 @@ module.exports = {
       // darkTheme: require('prism-react-renderer/themes/vsDark'),
     },
 
+    searchPagePath: 'false',
+    
     algolia: {
       apiKey: '70b38347b2c6ca47a5bfd5cc6cd173b0',
       indexName: 'datagit',
